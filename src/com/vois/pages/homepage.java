@@ -1,3 +1,4 @@
+//This file contains all elements and methods related to the Home page
 package com.vois.pages;
 
 import java.io.IOException;
@@ -15,10 +16,11 @@ public class homepage extends testbase {
 	
 	}
 	
-	
+	// This is the textbox element
 	@FindBy (xpath = "//input[@type='text']")
 	WebElement Textbox;
 	
+	// This method will enter the searchInput(vodafone) in the textbox
 	public firstpage entersearch() throws IOException {
 	Textbox.sendKeys(prop.getProperty("searchinput") + Keys.ENTER);
 	Textbox.clear();

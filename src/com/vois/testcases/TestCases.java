@@ -1,5 +1,5 @@
+// This file contains the test cases and the assertions
 package com.vois.testcases;
-
 
 import static org.testng.Assert.assertEquals;
 
@@ -15,7 +15,6 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.vois.base.testbase;
 import com.vois.pages.homepage;
 import com.vois.util.report;
-
 
 public class TestCases extends testbase {
 

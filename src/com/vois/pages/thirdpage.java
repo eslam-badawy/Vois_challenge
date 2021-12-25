@@ -1,3 +1,4 @@
+// This is all elements and methods related to the Third page
 package com.vois.pages;
 
 import java.io.IOException;
@@ -14,11 +15,12 @@ public class thirdpage extends testbase {
 
 	}
 	
+	// This is the search result elements in the third page
 	@FindBy (xpath = "//h3[@class]")
 	List<WebElement> SearchResults3;
 	
 	
-	
+	// This method will return the count of search result elements in the third page
 	public int CountOfthirddPage() {
 		int thirdPageResults =SearchResults3.size();
 		return thirdPageResults;
